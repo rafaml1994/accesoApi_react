@@ -1,4 +1,4 @@
-const URL = 'https://api.spacexdata.com/v3/launches';
+const URL = 'https://pruebasnode-production.up.railway.app/';
 
 export async function getAll(){
     try {

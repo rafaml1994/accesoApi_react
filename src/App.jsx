@@ -1,7 +1,7 @@
 import './App.css'
 
 
-import logo from './assets/logo.png'
+import logo from './assets/react.svg'
 import Gridcell from './components/grid';
 
 function App() {
@@ -11,9 +11,9 @@ function App() {
   //Retornar el componente
   return (
     <>
-    <div>
+    <div class="container">
       <img src={logo}></img>
-      <h1>Lanzamientos</h1>
+      <h1>Acceso a API</h1>
       <div>
         <Gridcell/>
       </div>
