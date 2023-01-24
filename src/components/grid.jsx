@@ -8,10 +8,10 @@ function Gridcomp(){
   
   const [nombres, setNombres] = useState([]);
 
+  //Para ciclo de vida de el componente(creado,actualizado,borrado)
   useEffect(() => {
     API.getAll().then(setNombres);
   },[])
-
     return (
         <Grid.Container gap={2} justify="center">
             <CollapseText/> 

@@ -1,4 +1,4 @@
-import { Grid,Collapse, useResize, Text, User } from "@nextui-org/react";
+import { Grid,Collapse, Text, User } from "@nextui-org/react";
 
 import { useState, useEffect } from "react";
 import * as API from '../services/launches';

@@ -10,3 +10,7 @@
 .container>h1{
   color: white;
 }
+
+#img-carrousel{
+  width: 60rem;
+}
