@@ -9,6 +9,7 @@ export default function CollapseText() {
 
     useEffect(() => {
       API.getAll().then(setNombres);
+      console.log(nombres)
     },[])
     
     return (
@@ -20,7 +21,7 @@ export default function CollapseText() {
                 src="https://i.pravatar.cc/150?u=a042581f4e29026024d"
                 name={n.nombre}
               />
-              <Text>Su apellido es: {n.apellidos}</Text>
+              <Text>Su email es: {n.email}</Text>
              </Collapse>
          </Collapse.Group>
         </Grid>
